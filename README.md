@@ -1,5 +1,11 @@
 # React Web App build as per the below requirement provided by Start-Up
 
+## Tech Stack Used:
+    - React JS
+    - Mantine UI
+    - Redux-Toolkit
+  
+
 ## Assignment
 
 The assignment is to build a responsive SPA (using ReactJs - no JQuery) that renders a static version of the screenshot provided below. The look and feel of the app should match with how the screenshot (provided below) looks and functionally provides the following capabilities :
