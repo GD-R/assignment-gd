@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# React Web App build as per the below requirement provided by Start-Up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment
 
-## Available Scripts
+The assignment is to build a responsive SPA (using ReactJs - no JQuery) that renders a static version of the screenshot provided below. The look and feel of the app should match with how the screenshot (provided below) looks and functionally provides the following capabilities :
 
-In the project directory, you can run:
+### ● Mandatory
+   - Add remove nodes to the tree structure on  the left panel
+   - There are two types of nodes, a container node, and a leaf node. As the name suggests container nodes contain other nodes while a leaf node doesn't.
+   - Each node will have unique content associated with it. Content is a generic object that could be anything. It could be a text, image, video, 3D diagram, custom-activity, etc.
+   - The tree structure and the content should be saved in the localStorage and retrieved from the same. No need to integrate with any APIs.
+   - Static menu popups that come up on hover of certain UI elements 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ● Optional
+  - Clicking on the node will open a WYSIWYG editor on the right panel to edit the content
+  - The editor should be like a Medium editor (on Google check for WYSIWYG editors). 
+  - The editor will have provisions to add different types of content. I am not expecting the app to support all types of content; just a couple of types will do.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### ● Editor ScreenShot
+  Here is a screenshot of one of the views that is part of our authoring platform. This screenshot is created to provide an idea of how the editor looks. There are quite a few other features that are planned for the final product but this is just a sample.
+   
+ ![ScreenShot](./public/screenShot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+  1. Hamburger Menu – Provides options for users to switch modules – Onclick opens a drawer
+1. Items render options. Allows to switch between a tree view to a graph view. 
+2. Graph view of the items (just a tab - no need to have any functional view)
+3. Controls to add containers
+4. Hierarchical view of the items
+5. Controls to add items to containers
+6. Current active item
+7. Editing options available to format a word
+8. Formatting options for the section heading
+9.  Providing options to add widgets like Video, Assessment-Item, etc.
+10. Option to invite more team members for collaboration 
+11. User options to update the profile, switch the authoring-theme, logout, etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
